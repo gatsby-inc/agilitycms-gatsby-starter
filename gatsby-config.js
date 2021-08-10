@@ -21,7 +21,7 @@ module.exports = {
     title: "Agility CMS Gatsby Starter",
   },
   flags: {
-    PARALLEL_QUERY_RUNNING: true
+    PARALLEL_QUERY_RUNNING: false
   },
   plugins: [
     `gatsby-plugin-image`,
