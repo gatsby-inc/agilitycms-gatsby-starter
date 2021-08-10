@@ -20,9 +20,11 @@ module.exports = {
   siteMetadata: {
     title: "Agility CMS Gatsby Starter",
   },
+  flags: {
+    PARALLEL_QUERY_RUNNING: true
+  },
   plugins: [
-    `gatsby-plugin-netlify`,
-   `gatsby-plugin-image`,
+    `gatsby-plugin-image`,
     `gatsby-plugin-react-helmet`,
     {
       //the name of the plugin
